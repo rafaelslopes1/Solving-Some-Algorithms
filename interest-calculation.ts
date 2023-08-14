@@ -1,4 +1,8 @@
-function calculateFinalAmount(initialAmount: number, interestRate: number, investmentTimeInMonths: number): number {
+function calculateFinalAmount(
+  initialAmount: number,
+  interestRate: number,
+  investmentTimeInMonths: number
+): number {
   return initialAmount * ((1 + interestRate) ** investmentTimeInMonths);
 }
 

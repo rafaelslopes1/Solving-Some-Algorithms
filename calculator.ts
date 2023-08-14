@@ -2,7 +2,7 @@ function calculate(
   number_1: number,
   number_2: number,
   operator: '+' | '-' | '*' | '/'
-) {
+): number {
   switch (operator) {
     case '+': return number_1 + number_2;
     case '-': return number_1 - number_2;
